@@ -4,10 +4,10 @@ A web based interface to visualize and debug rigid bodies created using Bullet S
 # Building
 ## Server
 - Integrate the following dependencies into your own C++ code:
-  - (nlohmann::json)[https://github.com/nlohmann/json]
-  - (net11)[https://github.com/whizzter/net11]
-  - (glm)[https://github.com/g-truc/glm]
-  - And (Bullet)[https://github.com/bulletphysics/bullet3] (obviously).
+  - [nlohmann::json](https://github.com/nlohmann/json)
+  - [net11](https://github.com/whizzter/net11)
+  - [glm](https://github.com/g-truc/glm)
+  - And [Bullet](https://github.com/bulletphysics/bullet3) (obviously).
 - Clone the repository using the command `git clone https://github.com/malhotraprateek/bullet-visualization.git`.
 - Navigate to bullet-server-code-reference folder.
 - Integrate files present into your own C++ application. (See the todo comments for more info)
@@ -21,3 +21,7 @@ A web based interface to visualize and debug rigid bodies created using Bullet S
 - Run `npm install`.
 - Run `npm run build`.
 - Double click on index.html to open the visualizer in your default browser.
+
+# Web View
+
+![Image](bullet-visualization/bullet-visualization.png)
