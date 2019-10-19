@@ -6,7 +6,7 @@ Contributions are welcome :smile:
 ## Server
 - Integrate the following dependencies into your own C++ code:
   - [nlohmann::json](https://github.com/nlohmann/json)
-  - [net11](https://github.com/whizzter/net11)
+  - [net11](https://github.com/malhotraprateek/net11) (Original [whizzter/net11](https://github.com/whizzter/net11))
   - [glm](https://github.com/g-truc/glm)
   - And [Bullet](https://github.com/bulletphysics/bullet3) (obviously).
 - Clone this repository using the command: `git clone https://github.com/malhotraprateek/bullet-visualization.git`.
