@@ -1,7 +1,7 @@
 # Bullet Visualization
 A web based interface to visualize and debug rigid bodies created using Bullet SDK.
 
-# Building
+# Building the project
 ## Server
 - Integrate the following dependencies into your own C++ code:
   - [nlohmann::json](https://github.com/nlohmann/json)
