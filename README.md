@@ -1,5 +1,5 @@
 # Bullet Visualization
-A web based interface to visualize and debug rigid bodies created using Bullet SDK.
+A web based interface to visualize and debug rigid bodies created using Bullet SDK.  
 Contributions are welcome :)
 
 # Building the project
