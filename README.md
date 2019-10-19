@@ -38,5 +38,5 @@ A web based interface to visualize and debug rigid bodies created using Bullet S
 # Disclaimers
 - The visualizer can only handle debug lines for now.
 - This project is not built for use in production environments.
-- The client and server has not been tested for running on separate machines.  
-  Even so, I do not think there should be anything inhibiting it.
+- The client and server has not been tested to run on separate machines.  
+  Even so, there should not be anything inhibiting it.
