@@ -21,7 +21,7 @@ A web based interface to visualize and debug rigid bodies created using Bullet S
 - Run `npm install`.
 - Run `npm run build`.
 - Double click on **index.html** to open the visualizer in your default browser.
-- Click on **Start Polling** button to start rendering debug data from Bullet. 
+- Click on **Start Polling** button to start rendering debug data from Bullet.  
   Ensure the server is already up and running.
 
 # Web View
@@ -32,11 +32,11 @@ A web based interface to visualize and debug rigid bodies created using Bullet S
 
 - Client-Server communication uses web sockets.
 - [Three.js](https://github.com/mrdoob/three.js) is used to render to the browser (WebGL).
-- Polling rate can be controlled by the slider provided. 
+- Polling rate can be controlled by the slider provided.  
   This functionality has been given to avoid framerate drops and stuttering on the server.
 
 # Disclaimers
 - The visualizer can only handle debug lines for now.
 - This project is not built for use in production environments.
-- The client and server has not been tested for running on separate machines. 
+- The client and server has not been tested for running on separate machines.  
   Even so, I do not think there should be anything inhibiting it.
