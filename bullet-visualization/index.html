@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Physics Visualizer</title>
+        <style>
+            #custom-handle {
+                width: 3em;
+                height: 1.6em;
+                top: 50%;
+                margin-top: -.8em;
+                text-align: center;
+                line-height: 1.6em;
+            }
+            #draggable { width: 500px; height: 150px; padding: 0.5em; }
+        </style>  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">      
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="dist/app.js"></script>
+    </head>
+
+    <body>
+        <div id="draggable" class="ui-widget-content" style="position: absolute; opacity: 0.7; left: 20px; top: 20px; background-color: transparent;">
+            <span style="color: white;">Wait Time (milli-seconds):</span>
+            <br/>
+            <br/>
+            <div id="slider" style="width: 90%;">
+                <div id="custom-handle" class="ui-slider-handle"></div>
+            </div>
+            <br/>
+            <br/>
+            <button id="startStopPolling">Start Polling</button>
+            <br/>
+            <br/>
+            <span id="status" style="float: right; color: white">Not Polling</span>
+        </div>
+        <div id="renderer"></div>
+    </body>
+</html>
