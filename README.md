@@ -2,6 +2,14 @@
 A web based interface to visualize and debug rigid bodies created using Bullet SDK.  
 Contributions are welcome :smile:
 
+# Web View
+
+![Image](bullet-visualization/bullet-visualization.png)
+
+# In Action
+
+![Image](bullet-visualization/bullet-visualization-in-action.png)
+
 # Building the project
 ## Server
 - Integrate the following dependencies into your own C++ code:
@@ -25,10 +33,6 @@ Contributions are welcome :smile:
 - Double click on **index.html** to open the visualizer in your default browser.
 - Click on **Start Polling** button to start rendering debug data from Bullet.  
   Ensure the server is already up and running.
-
-# Web View
-
-![Image](bullet-visualization/bullet-visualization.png)
 
 # Internals
 
